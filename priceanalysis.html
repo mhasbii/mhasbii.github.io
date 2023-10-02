@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Competitor Analysis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<style>
+    .carousel-control-next,
+    .carousel-control-prev /*, .carousel-indicators */ {
+        filter: invert(100%);
+    }
+    .carousel .item img {
+    left: -9999px;  /*important */
+    right: -9999px;  /*important */
+    margin: 0 auto;  /*important */
+    max-width: none;  /*important */
+    min-width: 100%;
+    position: absolute;
+}
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/portfolio/index.html">Hasbi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/portfolio/index.html/">About <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="/portfolio/viewall-projects.html">Projects</a>
+      </div>
+    </div>
+  </nav>
+    <div class="container-xxl h-750 bg-4 pb-lg-5" id="projects">
+        <div class="container px-md-1">
+            <h2 class="text-center pt-5 pb-3">Price Analysis and Monitoring</h2>
+            <div class="d-inline-flex justify-content-center px-3 pb-3">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <img class="d-block w-100" src="/portfolio/static/images/pa.png" alt="First slide">
+                </div>
+              </div>
+            </div>
+            <div class="card card-detail card-viewall my-3">
+                <div class="card-body p-0">
+                  <h4 class="card-title pt-4 px-4">Problem</h4>
+                  <div class="d-inline-flex flex-wrap px-3 pb-3">
+                    <p class="m-1 px-2" style="font-size: 14px; line-height: 1.5;">Xiaomi Indonesia utilizes two channels for product sales: the offline channel and the online channel. In the online channel, Xiaomi collaborates with various e-commerce platforms in Indonesia and maintains its own website. 
+                        However, occasional pricing errors occur on some products listed on these e-commerce platforms. The online team (E-Commerce team) is responsible for verifying the accuracy of product prices across all e-commerce platforms where Xiaomi products are available. This meticulous price-checking 
+                        process consumes a significant amount of time, primarily to ensure that all product prices offered by Xiaomi are correct and compliant with regulatory pricing standards.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card card-detail card-viewall my-3" style="height: 90%;">
+                        <div class="card-body p-0">
+                          <h4 class="card-title pt-4 px-4">Goal</h4>
+                          <div class="d-inline-flex flex-wrap px-3 pb-3">
+                            <p class="m-1 px-2" style="font-size: 14px; line-height: 1.5;">The goal of this project is to streamline the process of verifying product prices on e-commerce platforms by implementing an automated system. This system will generate alerts and provide a dashboard for daily price monitoring. 
+                                By doing so, the Online team can enhance their productivity by reallocating their time and resources to other tasks, ultimately reducing the need for manual price checks on a daily basis.
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-detail card-viewall my-3" style="height: 90%;">
+                        <div class="card-body p-0">
+                          <h4 class="card-title pt-4 px-4">Duration</h4>
+                          <div class="d-inline-flex flex-wrap px-3 pb-3">
+                            <p class="m-1 px-2" style="font-size: 14px; line-height: 1.5;">The duration of developing this project is around 8 - 9 weeks. The development consists of five phases:<br>
+                            <ol>
+                                <li class="li-point">Gathering/Scrap price data automatically every day.</li>
+                                <li class="li-point">Processing & Analyzing the data. </li>
+                                <li class="li-point">Storing temporary data to compare the price.</li>
+                                <li class="li-point">Create a dashboard using Power BI to monitor the price.</li>
+                                <li class="li-point">Create an automatic alert by sending an email.</li>
+                            </ol>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-detail card-viewall my-3">
+                <div class="card-body p-0">
+                  <h4 class="card-title pt-4 px-4">Tools</h4>
+                  <div class="d-flex justify-content-center flex-wrap">
+                    <div class="row m-3">
+                      <div class="col col-center my-2">
+                          <img src="/portfolio/static/images/tools/python.png" width="100" class="px-3">
+                      </div>
+                      <div class="col col-center my-2">
+                          <img src="/portfolio//static/images/tools/selenium.png" width="100" class="px-3">
+                      </div>
+                      <div class="col col-center my-2">
+                          <img src="/portfolio//static/images/tools/powerautomate.png" width="180" class="px-3">
+                      </div>
+                      <div class="col col-center my-2">
+                          <img src="/portfolio//static/images/tools/powerbi.png" width="100" class="px-3">
+                      </div>
+                      <div class="col col-center my-2">
+                          <img src="/portfolio//static/images/tools/excel.png" width="100" class="px-3">
+                      </div>
+                      <div class="col col-center my-2">
+                          <img src="/portfolio//static/images/tools/MySQLpng.png" width="150" class="px-3">
+                      </div>
+                      <div class="col col-center my-2">
+                        <img src="/portfolio//static/images/tools/spark.png" width="150" class="px-3">
+                      </div>
+                      <div class="col col-center my-2">
+                        <img src="/portfolio//static/images/tools/hadoop.png" width="210" class="px-3">
+                      </div>
+                      <div class="col col-center my-2">
+                          <img src="/portfolio//static/images/tools/jupyter.png" width="110" class="px-3">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <div class="card card-detail card-viewall my-3">
+                        <div class="card-body p-0">
+                          <h4 class="card-title pt-4 px-4">Steps</h4>
+                          <div class="d-inline-flex flex-wrap px-1 pb-3">
+                            <ol>
+                              <li class="li-point">Creating automation using Python, Selenium, and Power Automate to scrape data on all product prices from e-commerce platforms.</li>
+                              <li class="li-point">Pre-processing the data by doing several steps such as handling missing values, duplicates, and outliers (data cleaning) using Python (Pandas). </li>
+                              <li class="li-point">Stored temporary data to a database (MySQL) to make sure we have the last scraped data.</li>
+                              <li class="li-point">Do some comparison between the latest scrap price data and the last scraped data that directly gets from the database with the help of Python.</li>
+                              <li class="li-point">AFinal comparison data or clean data stored in Hive table that is available on Big Data Tools (known as Alpha).</li>
+                              <li class="li-point">Analyze the clean data and create a dashboard to make it easier for the E-Commerce team to monitor the prices.</li>
+                              <li class="li-point">Set an automatic alert when there’s an indication of a mistake in a product price on a certain e-commerce platform.</li>
+                            </ol>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card card-detail card-viewall my-3">
+                        <div class="card-body p-0">
+                          <h4 class="card-title pt-4 px-4">Result</h4>
+                          <div class="d-inline-flex flex-wrap px-1 pb-3 m-1">
+                            <ol>
+                              <li class="li-point"><strong>Reduce Time Consumption:</strong> Decrease the time spent on manual price checking across various e-commerce platforms on a daily basis.</li>
+                              <li class="li-point"><strong>Increase Productivity:</strong> Boost the productivity of the E-Commerce team by 20% through the efficient allocation of their time and resources to other critical tasks.</li>
+                              <li class="li-point"><strong>Accelerate Error Resolution:</strong> Expedite the resolution of pricing errors on specific e-commerce platforms by implementing an automated alert system. This system will continuously send emails to the responsible personnel at the e-commerce platform until the product prices are aligned with the regulatory standards.</li>
+                            </ol>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
