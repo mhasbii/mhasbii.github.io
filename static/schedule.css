@@ -1,0 +1,42 @@
+#Matkul {
+    margin: 50px;
+    font-family: "Playfair Display";
+}
+
+#DMatkul {
+    margin: 50px;
+    font-family: "Playfair Display";
+}
+
+#jfont {
+    text-align: center;
+    font-family: "Playfair Display";
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#bton2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#lihat_jadwal {
+    margin: 100px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 5px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+

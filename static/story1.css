@@ -1,0 +1,89 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+    
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-9 { 
+    background-color: #1e3e53;
+    background-image: url(static/latar.png);
+    color: #ffffff;
+  }
+  .bg-10 { 
+    background-color: #474e5d; 
+    color: #ffffff;
+  }
+  .bg-11 { 
+    background-color: #ffffff;
+    background-image: url(static/latar.png);
+    color: #555555;
+  }
+  .bg-12 { 
+    background-color: #ffffff;
+    background-image: url(static/latar.png);
+    color: #555555;
+  }
+  .bg-13 { 
+    background-color: #2f2f2f;
+    background-image: url(static/latar.png); 
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  .nav-2{
+      background-color: #041621;
+  }
+  .set-1{
+    width: 500px;
+    height: 300px;
+  }
+  .scrolling {
+  color : blue;
+	animation: scrolling 2s linear infinite;
+  -moz-animation: scrolling 2s linear infinite;
+  -webkit-animation: scrolling 2s linear infinite;
+  -ms-animation: scrolling 2s linear infinite;
+  -o-animation: scrolling 2s linear infinite;
+}
+  /* scroll animation */
+  @keyframes scrolling {
+    0% {transform: translateY(-50%)}
+    100% {transform: translateY(50%)}
+  }
+  @-moz-keyframes scrolling {
+    0% {transform: translateY(-50%)}
+    100% {transform: translateY(50%)}
+  }
+  @-webkit-keyframes scrolling {
+    0% {transform: translateY(-50%)}
+    100% {transform: translateY(50%)}
+  }
+  @-ms-keyframes scrolling {
+    0% {transform: translateY(-50%)}
+    100% {transform: translateY(50%)}
+  }
+  @-o-keyframes scrolling {
+    0% {transform: translateY(-50%)}
+    100% {transform: translateY(50%)}
+  } 
+
+  .scrolling-container {
+    overflow : hidden;
+    height: 34px;
+  }
